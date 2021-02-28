@@ -1,0 +1,25 @@
+{
+  "name": "shop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js --watch src",
+    "seed": "node src/seeder/index.js"
+  },
+  "author": "Frederick Roegiers",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.4.0",
+    "knex": "^0.21.18",
+    "node-fetch": "^2.6.1",
+    "sqlite3": "^5.0.2",
+    "underscore": "^1.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
